@@ -1,0 +1,497 @@
+@media screen and (max-width: 427px){
+
+.customers{
+  display: flex;
+  flex-direction: column;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+}
+  .customer-list-item{
+  width: 100%;
+  max-width:190px;
+  height: 88px;
+  gap:0;
+  }
+
+
+}
+
+@media screen and (min-device-pixel-ratio: 2), 
+screen and (min-resolution: 192dpi), 
+screen and (min-resolution: 2dppx) 
+screen and (min-width: 480px) {
+  .hero-image{
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/People-office-mobile@2x.jpg');
+}
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+      min-width: 320px;
+      max-width: 428px;
+    }
+  }
+
+  @media screen and (min-width:320px) and (max-width: 767px){
+  .nav{
+    display: none;
+  }
+  .contact{
+    display: none;
+  }
+
+.mobile-menu-icon{
+  stroke: var(--textcolor);
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+stroke-width: 3px;
+}
+
+.mobile-menu-open {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  }
+
+  .mobile-menu-overlay{
+    position:fixed;
+    width: 100%;
+    height:100%;
+    z-index: 1000;
+    top:0;
+    left: 0;
+  padding-left:40px;
+    background-color: var(--backgroundcolor);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    opacity:0;
+    visibility:hidden;
+    pointer-events: none;
+    transform: translateX(100%)
+    transition: opacity 500ms linear, visibility 500ms linear;
+    }
+    
+
+    .mobile-menu-overlay.is-open{
+      opacity:1;
+      visibility:visible;
+      pointer-events: auto;
+      transform: translateX(0);
+    }
+
+ .mobile-menu-overlay.mobile-menu-open {
+  position: absolute;
+  color: #fff;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom:auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ .mobile-container{
+  display:flex;
+  flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height:100%;
+  }
+  
+  .mobile-menu-nav{
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    padding: 10px;
+    list-style-type: none;
+    color: var(--textcolor);
+  transition: color 250ms var(--cubic);
+  }
+  
+  .mobile-menu-nav:hover,
+  .mobile-menu-nav:focus{
+    color:var(--activebackbtncolor);
+    }
+    
+  
+  a:link{
+    text-decoration: none;
+  }
+  
+  .mobile-menu-contacts {
+    display: flex;
+    flex-direction:column;
+    gap:40px;
+    padding-bottom: 48px;
+    list-style-type: none;
+    margin-top: auto;
+  }
+  
+  .mobile-contacts-tel{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--logowebcolor);
+    transition: color 250ms var(--cubic);
+  }
+
+  .mobile-contacts-mail{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding-top:40px;
+    color: var(--maincolor);
+    transition: color 250ms var(--cubic);
+  }
+  
+  .mobile-contacts-tel:hover,
+  .mobile-contacts-tel:focus,
+  .mobile-contacts-mail:hover,
+  .mobile-contacts-mail:focus {
+    color: var(--activebackbtncolor);
+  }
+
+
+  .mobile-social-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 60px;
+    }
+
+    .header{
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap:72px;
+    }
+
+    .hero-image{
+      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/People-office-mobile@1x.jpg');
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+      height:432px;
+      margin-top: 55px;
+    }
+
+
+    .hero-text {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      text-transform: capitalize;
+      text-align: center;
+      padding-top: 112px;
+      margin-bottom: 72px;;
+    }
+    
+ 
+     .features-list {
+      flex-direction: column;
+      gap: 72px;
+      padding-inline-start: 0;
+      max-width: 396px;
+    }
+    
+    
+  .features-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+letter-spacing: 0.02em;
+text-align: center;
+      background-color: var(--backgroundcolor);
+    }
+  
+    
+    .features-section {
+      padding: 96px 0;
+    }
+  
+    .features-icon-container{
+display:none;
+    }
+
+    .features-description{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--maincolor);
+      margin-top: 8px;
+    }  
+  
+    .work-mission{
+      display: none;
+  } 
+  
+  .our-team{ 
+    flex-direction: column;
+    justify-content: center;
+padding-top:96px;
+padding-bottom:96px;
+text-align:center;
+  }
+
+  
+  .team-card {
+width:100%;
+  }
+  
+  .employee-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .employee {
+  display: flex;
+    flex-direction: column;
+    gap:72px;
+    padding-inline-start: 0;
+  }
+  
+  .social-list{
+padding-left: 0;
+}
+
+  .customers-section{
+    padding-top:96px;
+    padding-bottom: 24px;
+  }
+
+.customers{
+  flex-direction: row;
+  flex-wrap: wrap;
+gap: 16px;
+}
+.customers-list-link{
+width:100%;
+height:100%;
+  }
+
+  .customer-list-item{
+ width: 190px;
+  height: 88px;
+  margin-bottom: 72px;
+  }
+    /*PORTFOLIO PAGE*/
+
+
+    .buttons-section{
+      padding-top: 119px;
+    }
+
+  .buttons-item {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--fontfamily);
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--logowebcolor);
+    background-color: var(--secondarycolor);
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--btnbordercolor);
+    transition: background-color 250ms var(--cubic), color 250ms var(--cubic), border 250ms var(--cubic), box-shadow 250ms var(--cubic); 
+  }
+  
+  
+  .buttons-item:hover,
+  .buttons-item:focus,
+  .buttons-item:active {
+    color: var(--backgroundcolor);
+    background-color: var(--activebackbtncolor);
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  }
+  
+
+  .buttons-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  
+  
+  
+ .portfolio {
+    display: flex;
+flex-direction: column;
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+  
+  
+  .portfolio .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--textcolor);
+  }
+  
+  .portfolio .subtitle {
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--maincolor);
+  }
+  
+  
+  .app-portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid var(--btnbordercolor);
+    border-top: 0;
+  }
+  
+.app-portfolio-card {
+width: 360px;
+}
+
+  .portfolio-link:hover .portfolio-flip-card,
+  .portfolio-link:focus .portfolio-flip-card{
+transform: translate(0, 0);
+  }
+
+  .portfolio-link{
+    display:block;
+    transition: box-shadow 250ms var(--cubic); 
+  }
+  
+  .portfolio-link:hover,
+  .portfolio-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
+  .portfolio-box{
+    position:relative;
+    display:block;
+    overflow:hidden;
+  }
+  
+  .portfolio-flip-card{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding-top:40px;
+    padding-left:32px;
+    padding-right:32px;
+    text-align: justify;
+color: var(--secondarycolor);
+background-color: var(--logowebcolor);
+mix-blend-mode: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+transform: translate(0,100%);
+transition: transform 250ms var(--cubic); 
+}
+    /*PORTFOLIO PAGE*/
+
+
+  .logo-webfooter {
+    padding-left: 80px;
+    }
+  
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  
+  .footer-logo-container{
+    padding-bottom: 72px;
+  }
+  
+  .footer-all{
+    margin-left:auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+  }
+
+  .footer-social{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+
+  .social-list-bottom{
+    justify-content: center;
+  }
+
+.footer-contact-form{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+.footer-form-text {
+text-align: center;
+}
+
+
+.footer-form-container{
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.footer-form-field{
+  width:100%;
+}
+
+  .footer-form-input{
+width:100%;
+height: 40px;
+padding: 15px;
+  }
+  
+  .footer-form-subscribe{
+    min-width: 165px;
+    height: 40px;
+}
+    }
