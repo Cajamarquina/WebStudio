@@ -367,19 +367,14 @@ justify-content: center;
 
 .buttons-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
-  /* margin-bottom: 72px;*/
 }
 
 
 
 .portfolio {
-  /*display: flex;
-  gap: 24px;
-  row-gap: 48px;*/
+display: flex;
 }
-
 
 .portfolio .title {
   font-weight: 500;
@@ -834,5 +829,3 @@ display: block;
         .modal-form-privacy:focus {
         color: var(--activebackbtncolor);
         }
-  
-  
