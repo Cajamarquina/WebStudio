@@ -17,15 +17,6 @@ align-items: center;
 
 }
 
-@media screen and (min-device-pixel-ratio: 2), 
-screen and (min-resolution: 192dpi), 
-screen and (min-resolution: 2dppx) 
-screen and (min-width: 480px) {
-  .hero-image{
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/People-office-mobile@2x.jpg');
-}
-}
-
 @media screen and (min-width: 480px) {
     .container {
       min-width: 320px;
@@ -204,6 +195,12 @@ stroke-width: 3px;
     }
 
 
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)  {
+      .hero-image{
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/People-office-mobile@2x.jpg');
+    }
+    }
+    
     .hero-text {
       font-weight: 700;
       font-size: 36px;
