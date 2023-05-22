@@ -195,32 +195,6 @@
         }
       
 /*PORTFOLIO PAGE*/
-   .buttons-item {
-      font-weight: 500;
-      font-size: 16px;
-      font-family: var(--fontfamily);
-      line-height: 1.5;
-      text-align: center;
-      letter-spacing: 0.04em;
-      color: var(--logowebcolor);
-      background-color: var(--secondarycolor);
-      cursor: pointer;
-      border-radius: 4px;
-      padding: 12px 24px;
-      border: 1px solid var(--btnbordercolor);
-      transition: background-color 250ms var(--cubic), color 250ms var(--cubic), border 250ms var(--cubic), box-shadow 250ms var(--cubic); 
-    }
-    
-    
-    .buttons-item:hover,
-    .buttons-item:focus,
-    .buttons-item:active {
-      color: var(--backgroundcolor);
-      background-color: var(--activebackbtncolor);
-      border: 1px solid transparent;
-      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
-    }
-    
     
     .buttons-section {
       padding-top: 137px;
@@ -228,90 +202,19 @@
     
     
     .buttons-list {
-      display: flex;
       justify-content: center;
-      gap: 24px;
       margin-bottom: 72px;
     }
     
     
     
     .portfolio {
-    display: flex;
       flex-wrap: wrap;
       gap: 24px;
       row-gap: 72px;
       margin-bottom: 96px;
     }
     
-    
-    .portfolio .title {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      color: var(--textcolor);
-    }
-    
-    
-    .portfolio .subtitle {
-      font-family: var(--fontfamily);
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: var(--maincolor);
-    }
-    
-    
-    .app-portfolio-container {
-      padding: 32px 16px;
-      border: 1px solid var(--btnbordercolor);
-      border-top: 0;
-    }
-    
-    
-    .portfolio-link:hover .portfolio-flip-card,
-    .portfolio-link:focus .portfolio-flip-card{
-    transform: translate(0, 0);
-    }
-    
-    .portfolio-link{
-      display:block;
-      transition: box-shadow 250ms var(--cubic); 
-    }
-    
-    .portfolio-link:hover,
-    .portfolio-link:focus{
-      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    }
-    
-    .portfolio-box{
-      position:relative;
-      display:block;
-      overflow:hidden;
-    }
-    
-    .portfolio-flip-card{
-      position:absolute;
-      bottom:0;
-      left:0;
-      width:100%;
-      height:100%;
-      padding-top:40px;
-      padding-left:32px;
-      padding-right:32px;
-      text-align: justify;
-    color: var(--secondarycolor);
-    background-color: var(--logowebcolor);
-    mix-blend-mode: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    transform: translate(0,100%);
-    transition: transform 250ms var(--cubic); 
-    }
         /*PORTFOLIO PAGE*/
     
     
