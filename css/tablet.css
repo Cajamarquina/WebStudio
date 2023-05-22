@@ -4,15 +4,6 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2), 
-screen and (min-resolution: 192dpi), 
-screen and (min-resolution: 2dppx) 
-screen and (min-width: 768px) {
-  .hero-image{
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/People-office-tablet@2x.jpg');
-}
-}
-
 @media screen and (min-width: 768px) and (max-width: 1157px){
 .customers-section  .container{
   padding-left:108px;
@@ -95,6 +86,12 @@ screen and (min-width: 768px) {
         padding-top: 112px;
       }
       
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .hero-image{
+          background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/People-office-tablet@2x.jpg');
+        }
+      }
+
       .hero-text {
         font-weight: 700;
         font-size: 56px;
