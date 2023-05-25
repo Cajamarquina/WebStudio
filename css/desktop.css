@@ -95,7 +95,8 @@
   }
     
     .features-section {
-      padding: 120px 0;
+      padding-top: 120px;
+      padding-bottom: 48px;
     }
   
     .features-icon-container{
@@ -192,7 +193,7 @@
       /*PORTFOLIO PAGE*/
     
     .buttons-section {
-      padding-top: 172px;
+      padding-top: 100px;
     }
     
     
@@ -213,6 +214,9 @@ row-gap: 48px;
   
   /*PORTFOLIO PAGE*/
     
+  .logo-webfooter{
+    display: inline-block;
+  }
     
     .footer {
       background-color: var(--textcolor);
