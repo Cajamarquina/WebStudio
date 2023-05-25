@@ -139,7 +139,7 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-bottom: 72px;
+        margin-bottom: 48px;
       }
       
       .work-mission{
@@ -199,7 +199,7 @@
 /*PORTFOLIO PAGE*/
     
     .buttons-section {
-      padding-top: 137px;
+      padding-top: 64px;
     }
     
     
@@ -226,7 +226,9 @@ padding-bottom:96px;
     }
     
 
-    
+    .footer-description{
+      margin-top:  16px;
+    }
     .footer-all{
       flex-direction: column;
       justify-content: center;
