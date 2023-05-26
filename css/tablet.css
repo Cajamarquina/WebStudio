@@ -10,10 +10,11 @@
   padding-right:108px;
  }
  .footer .container {
- padding-left:108px;
+ margin-left: 100px;
  }
  }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px){
+
     .mobile-menu-overlay{
     display:none;
     }
@@ -34,17 +35,6 @@
       align-items: center;
       flex-wrap: nowrap;
      }
-    
-     .header {
-      /*position:fixed;*/
-      border-bottom: 1px solid var(--btnbordercolor);
-      box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    z-index: var(--header-idx);
-    background-color: var(--backgroundcolor);
-    width:100%;
-    top:0;
-    left:0;
-    }
     
     .header-class{
       display: flex;
@@ -82,7 +72,7 @@
       width: 768px;
         margin-left: auto;
         margin-right: auto;
-       /* margin-top: 72px;*/
+       margin-top: 72px;
         padding-bottom: 96px;
         padding-top: 112px;
       }
@@ -156,12 +146,8 @@
     .master-card {
       width:100%;
     }
-    
-    
-    .team-emp{
-      text-align: center;
-    }
   
+
     
     .employee {
         display: grid;
@@ -199,7 +185,7 @@
 /*PORTFOLIO PAGE*/
     
     .buttons-section {
-      padding-top: 64px;
+      padding-top: 136px;
     }
     
     
@@ -224,21 +210,18 @@
       padding-top: 96px;
 padding-bottom:96px;
     }
-    
 
     .footer-description{
       margin-top:  16px;
+      margin-right:24px;
     }
     .footer-all{
       flex-direction: column;
-      justify-content: center;
-      gap: 24px;
     }
     
     .footer-tablet-row{
       display: flex;
-      gap: 24px;
-      margin-bottom: 48px;
+      margin-bottom: 72px;
     }
     .footer-social{
       width: 208px;
@@ -249,8 +232,8 @@ padding-bottom:96px;
       padding-inline-start: 0;
     }
 
-    .footer-form-container{
-    gap:24px;
+    .footer-form-field{
+    margin-right:24px;
     }
   
     .footer-form-input{
@@ -261,9 +244,5 @@ padding-bottom:96px;
     .footer-contact-form{
       /* width: 165px; */
       align-items: center;
-    }
-    .footer-form-subscribe{
-          min-width: 165px;
-          height: 40px;
     }
     }
