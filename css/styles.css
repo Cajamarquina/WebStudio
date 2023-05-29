@@ -101,14 +101,11 @@
 
    
   .header {
-   position:absolute;
     border-bottom: 1px solid var(--btnbordercolor);
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   z-index: var(--header-idx);
   background-color: var(--backgroundcolor);
   width:100%;
-  top:0;
-  left:0;
   }
 
   .nav-menu > a {
@@ -695,7 +692,7 @@ display: block;
 
     .modal-form-icon{
     position:absolute;
-    top:50%;
+    top: 42%;
     left:16px;
     transform: translate(0,-50%);
     display:block;
@@ -730,12 +727,16 @@ display: block;
     color: rgba(46, 47, 66, 0.4);
     }
 
+    .modal-form-msg:focus{
+      fill: var(--logowebcolor);
+    }
+
 .modal-checkbox-label {
     display: flex;
     gap: 8px;
-    justify-content: center;
     transition: var(--cubic);
     margin-top: 8px;
+    padding-inline-start: 0;
   }
   
   .modal-checkbox-wrapper{
@@ -752,7 +753,6 @@ display: block;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 0;
-    justify-content: left;
     cursor:pointer;
     }
   
@@ -826,4 +826,4 @@ display: block;
         .modal-form-privacy:hover,
         .modal-form-privacy:focus {
         color: var(--activebackbtncolor);
-}
+        }
