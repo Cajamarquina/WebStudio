@@ -209,15 +209,15 @@ padding-bottom:96px;
 
     .footer-description{
       margin-top:  16px;
-      margin-right:24px;
     }
     .footer-all{
       flex-direction: column;
+      gap: 72px 24px;
     }
     
     .footer-tablet-row{
       display: flex;
-      margin-bottom: 72px;
+      gap:24px;
     }
     .footer-social{
       width: 208px;
@@ -227,10 +227,6 @@ padding-bottom:96px;
     .social-list-bottom{
       padding-inline-start: 0;
     }
-
-    .footer-form-field{
-    margin-right:24px;
-    }
   
     .footer-form-input{
     padding: 8px 16px;
@@ -239,7 +235,10 @@ padding-bottom:96px;
     }
     
     .footer-contact-form{
-      /* width: 165px; */
       align-items: center;
+    }
+
+    .footer-form-container {
+      gap:24px;
     }
     }
